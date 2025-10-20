@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAPPY 8 MONTHS ANNIVERSARY MY WIFEEEYYYY😭💞</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: pink;
+      text-align: center;
+      font-family: "Comic Sans MS", cursive;
+      color: #ff0066;
+      overflow: hidden;
+    }
+    h1 {
+      margin-top: 60px;
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.4em;
+      margin: 40px;
+      line-height: 1.7em;
+    }
+    .heart {
+      font-size: 2em;
+      animation: float 2s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+      from { transform: translateY(0px); }
+      to { transform: translateY(-20px); }
+    }
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #ff4081;
+      color: white;
+      font-size: 1.2em;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #e91e63;
+    }
+    #message {
+      display: none;
+      font-size: 1.3em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1> ❤️ HAPPY 8 MONTHS ANNIVERSARY</h1>
+  <h2>MY WIFEEEYYYY🥹💞</h2>
+
+  <button class="button" onclick="showMessage()">CLICK HERE MY LOVEEEE🥹💞</button>
+  <div id="message">
+    <p>
+    I LOVEEEEEEEEEEEEEEEE YOUUUUUUUUUUU WITH EVERYTHINGGGGGGGGG🥹❤️  
+    I LOVEEEEEEEE YOU MORE THAN ALL THE STARS IN THE SKY AND ALL THE OCEANS IN THE WORLD  
+    I LOVEEEEEEEE YOU IN EVERY BREATH EVERY DREAM EVERY MOMENT BECAUSE EVERYTHING LEADS BACK TO YOUUUUU🥹💞  
+    I LOVEEEEEEEE YOU UNTIL FOREVER AND BEYOND BECAUSE MY SOUL BELONGS TO YOUUUUUUUUU😭❤️♾️💍  
+    I LOVEEEEEEEE YOU MY MIRACLE MY FOREVER MY WIFEEEYYYY😭❤️
+    </p>
+    <div class="heart">❤️❤️❤️</div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+</body>
+</html>
